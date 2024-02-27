@@ -1,0 +1,116 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family:"Poppins";
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url(./images/black.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+ 
+}
+
+
+h1, h2 {
+  color: whitesmoke; 
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
+}
+@media only screen and (max-width: 600px) {
+   h2 { 
+    font-size: 18px; 
+    padding: 5px; 
+    margin: 5px; 
+  } 
+}
+#intro p{
+  color: #eeeeee;
+  padding: 5px;
+  margin: 20px;
+}
+#intro p ul{
+  color: #eeeeee;
+  margin: 20px;
+}
+#intro ul li{
+  color: #eeeeee;
+  padding: 5px;
+  margin: 10px;
+}
+#intro img {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+#impact img{
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+@media only screen and (max-width: 600px) { 
+  #impact img { 
+    width: 150px; 
+  } 
+  #intro img {
+    width: 150px;
+  }
+}
+.audio-container {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #eeeeee;
+}
+
+section {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 5px; 
+  margin: 10px;
+  box-shadow: 0px 0px 10px rgba(234, 234, 230, 0.719); 
+}
+
+
+#life-career, #achievements, #impact {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 5px; 
+  margin: 10px;
+  box-shadow: 0px 0px 10px rgba(234, 234, 230, 0.719); 
+  color: #dcdcdc;
+
+}
+@media only screen and (max-width: 600px) { 
+.audio-container { 
+  width: 90%; 
+}
+
+audio { 
+  width: 100%; } 
+}
+
+ul {
+  list-style-type: square;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  overflow: hidden;
+  
+}
+
